@@ -22,9 +22,8 @@
         }
     }
     function destructivelyDeleteFromEmployeeByKey(employee, key){
-        const newEmploye = employee["name"]
-        delete employee["name"];
-        return {
-            ...employee
+       console.log (employee) 
+       delete employee["name"];
+        return employee;
+         
         }
-    }
